@@ -1,18 +1,27 @@
-* {
-      border: thin red dashed
-    }
-
     body{
       font-family: 'Poppins', sans-serif;
     }
 
-    .row{
-      display: flex;
-      justify-content:space-between
+    .container {
+      max-width: 960px
     }
 
-    .one-third{
+    .row {
+      display: flex;
+      justify-content: space-between
+    }
+
+    .row-center {
+      display: flex;
+      justify-content: center
+    }
+
+    .one-third {
       width: 32%
+    }
+
+    .mb{
+      margin-bottom: 10px
     }
 
     .button {
@@ -24,15 +33,27 @@
     display: inline-block;
     text-align: center;
     padding-top: 0.25em;
-    padding-bottom: 0.25em;
+    padding-bottom: 0.25em
     }
 
     .player-card {
-    border: thin green solid; 
-    width: 49%
+    border: thin green solid;
+    border-radius: 5px; 
+    width: 49%;
+    text-align: center;
     }
 
     .computer-card {
     border: thin red solid; 
-    width: 49%
+    border-radius: 5px;
+    width: 49%;
+    text-align: center
+    }
+
+    .outcome-card {
+    border: thin red solid; 
+    background-color: pink;
+    border-radius: 5px;
+    width: 66%;
+    text-align: center
     }
