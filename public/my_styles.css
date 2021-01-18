@@ -1,0 +1,38 @@
+* {
+      border: thin red dashed
+    }
+
+    body{
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .row{
+      display: flex;
+      justify-content:space-between
+    }
+
+    .one-third{
+      width: 32%
+    }
+
+    .button {
+    color: teal; 
+    border: 1px teal solid; 
+    border-radius: 5px; 
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    }
+
+    .player-card {
+    border: thin green solid; 
+    width: 49%
+    }
+
+    .computer-card {
+    border: thin red solid; 
+    width: 49%
+    }
